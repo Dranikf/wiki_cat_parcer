@@ -1,5 +1,5 @@
 # wiki_cat_parcer
-functions for parsing wikipedia pages of categoryes types.
+Functions for parsing wikipedia pages of categoryes types.
 You can get a dictionary wich contains {"text of link":"url behind the link"}.
 
 We will show on page https://en.wikipedia.org/wiki/Category:Cities_in_the_United_States
@@ -29,19 +29,6 @@ pd.DataFrame({'url':pg_parsing_result.values()},
 
 
 <div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
@@ -146,19 +133,6 @@ pd.DataFrame({'url':pg_parsing_result.values()},
 
 
 <div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
